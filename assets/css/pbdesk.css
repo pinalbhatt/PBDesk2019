@@ -2995,11 +2995,14 @@ Footer CSS
   padding-bottom: 25px;
   border-top: 1px solid #d8ebfd;
   text-align: center;
+  color: #083b66;
 }
-
-/*=============================
-Go Top CSS
-===============================*/
+.copyright-area p {
+  color: #083b66;
+}
+  /*=============================
+  Go Top CSS
+  ===============================*/
 .go-top {
   position: fixed;
   cursor: pointer;

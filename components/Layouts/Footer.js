@@ -90,9 +90,9 @@ export default class Footer extends React.Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>Address</h3>
-                                
+
                                 <ul className="footer-contact-info">
-                                    <li> 
+                                    <li>
                                         <Icon.MapPin />
                                         27 Division St, New York, NY 10002, USA
                                     </li>
@@ -100,7 +100,7 @@ export default class Footer extends React.Component {
                                         <Icon.Mail />
                                         Email: <Link href="#"><a>startp@gmail.com</a></Link>
                                     </li>
-                                    <li> 
+                                    <li>
                                         <Icon.PhoneCall />
                                         Phone: <Link href="#"><a>+ (321) 984 754</a></Link>
                                     </li>
@@ -134,7 +134,7 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="copyright-area">
-                                <p>Copyright @2019 StartP. All rights reserved</p>
+                                <p>from the desk of <b><em>Pinal Bhatt</em></b></p>
                             </div>
                         </div>
                     </div>
