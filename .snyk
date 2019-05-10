@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-LODASH-73638:
+    - nodemailer-sendgrid-transport > sendgrid > lodash:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+  SNYK-JS-LODASH-73639:
+    - nodemailer-sendgrid-transport > sendgrid > lodash:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+  'npm:braces:20180219':
+    - webp-loader > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+    - webp-loader > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+    - webp-loader > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+    - webp-loader > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+    - webp-loader > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-06-09T22:28:43.989Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - nodemailer-sendgrid-transport > sendgrid > lodash:
+        patched: '2019-05-10T22:27:35.002Z'
+  'npm:tunnel-agent:20170305':
+    - webp-loader > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-05-10T22:27:35.002Z'
+    - webp-loader > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2019-05-10T22:27:35.002Z'
