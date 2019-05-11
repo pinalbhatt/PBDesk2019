@@ -3,6 +3,8 @@ const withCSS = require('@zeit/next-css');
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 
+const debug = process.env.NODE_ENV !== "production";
+
 // module.exports = withImages(withCSS({
 //     inlineImageLimit: 8192,
 //     webpack(config, options) {
@@ -19,8 +21,12 @@ const optimizedImages = require('next-optimized-images');
 //     pageExtensions: ['jsx', 'js']
 // }))
 
+const nextConfig = {
+    assetPrefix: !debug ? '/pbdesk2019/' : ''
+}
+
 module.exports = withPlugins([
-    [optimizedImages, {
+        [optimizedImages, {
         inlineImageLimit: 8192,
         imagesFolder: 'images',
         imagesName: '[name]-[hash].[ext]',
@@ -43,6 +49,5 @@ module.exports = withPlugins([
             quality: 75,
         },
     }],
-    [withCSS]
-   
-]);
+        [withCSS]
+    ], nextConfig);
