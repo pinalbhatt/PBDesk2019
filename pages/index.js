@@ -3,11 +3,13 @@ import { Preloader, Placeholder } from 'react-preloading-screen';
 import NoSSR from 'react-no-ssr';
 import Header from '../components/Layouts/Header'
 import MainBanner from '../components/home-one/MainBanner'
-import BoxArea from '../components/home-one/BoxArea';
+import Welcome from '../components/home-one/Welcome'
+// import BoxArea from '../components/home-one/BoxArea';
 import ServicesArea from '../components/home-one/ServicesArea';
 import Team from '../components/home-one/Team';
 import Funfacts from '../components/home-one/Funfacts';
 import RecentWork from '../components/home-one/RecentWork';
+import SkillCarousel from '../components/home-one/SkillCarousel';
 import Pricing from '../components/home-one/Pricing';
 import Feedback from '../components/home-one/Feedback';
 import Partner from '../components/home-one/Partner';
@@ -29,8 +31,10 @@ class Index extends React.Component {
                     <Header />
                     {/* start-p/components/home-one/MainBanner.js */}
                     <MainBanner />
+                    <Welcome />
+                    <SkillCarousel />
                     {/* start-p/components/home-one/BoxArea.js */}
-                    <BoxArea />
+                    {/*<BoxArea />*/}
                     {/* start-p/components/home-one/ServicesArea.js */}
                     <ServicesArea />
                     {/* start-p/components/home-one/Team.js */}

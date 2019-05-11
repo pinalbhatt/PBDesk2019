@@ -14,10 +14,6 @@ const MainBanner = () => {
                                     <h4>from the desk of</h4>
 									<h1>Pinal Bhatt</h1>
 									<p>On this site you’ll find interesting posts, articles, tutorials, news updates and links on Programming, Microservices, Cloud & Serverless, JavaScript, NodeJS, TypeScript, Angular, Vue, React, GoLang and other random thoughts and opinions. </p>
-
-									<Link href="#">
-										<a className="btn btn-primary">Get Started</a>
-									</Link>
 								</div>
 							</div>
 

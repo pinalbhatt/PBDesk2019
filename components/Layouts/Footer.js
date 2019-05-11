@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
             <footer className="footer-area bg-f7fafd">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <Link href="#">
@@ -17,118 +17,78 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <p>Hi Everyone! I’m <b>Pinal Bhatt</b> and <br/>I am a <em>Software Engineer & Developer</em>,
+                                    so yes, always on learning ramp! On this site you’ll find interesting posts, articles, tutorials, news updates and links on Programming, Microservices, Cloud & Serverless, JavaScript, NodeJS, TypeScript, Angular, Vue, React, GoLang and other random thoughts and opinions.</p>
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Company</h3>
+                                <h3>Menu</h3>
                                 <ul className="list">
                                     <li>
                                         <Link href="/about">
-                                            <a>About Us</a>
+                                            <a>Home</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/services">
-                                            <a>Services</a>
+                                            <a>Featured</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/features">
-                                            <a>Features</a>
+                                            <a>My Blog</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/pricing">
-                                            <a>Our Pricing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog">
-                                            <a>Latest News</a>
+                                            <a>About</a>
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Support</h3>
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>FAQ's</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Terms & Condition</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Community</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">
-                                            <a>Contact Us</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                                <div className="item">
+                                    <div className="item col-lg-12">
+                                        <div className="single-team">
+                                            <div className="team-image">
+                                                <img src={require("../../images/pb.png")} alt="image" />
+                                            </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>Address</h3>
-
-                                <ul className="footer-contact-info">
-                                    <li>
-                                        <Icon.MapPin />
-                                        27 Division St, New York, NY 10002, USA
-                                    </li>
-                                    <li>
-                                        <Icon.Mail />
-                                        Email: <Link href="#"><a>startp@gmail.com</a></Link>
-                                    </li>
-                                    <li>
-                                        <Icon.PhoneCall />
-                                        Phone: <Link href="#"><a>+ (321) 984 754</a></Link>
-                                    </li>
-                                </ul>
-                                <ul className="social-links">
-                                    <li>
-                                        <Link href="#">
-                                            <a className="facebook">
-                                                <Icon.Facebook />
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a className="twitter"><Icon.Twitter /></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a className="instagram"><Icon.Instagram /></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a className="linkedin"><Icon.Linkedin /></a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                            <div className="team-content">
+                                                <div className="team-info">
+                                                    <h3>Pinal Bhatt</h3>
+                                                </div>
+                                                <ul className="social-links">
+                                                    <li>
+                                                        <Link href="https://twitter.com/pbdesk">
+                                                            <a className="twitter" target="_blank"><Icon.Twitter /> </a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="https://www.facebook.com/Go.PBDesk">
+                                                            <a className="facebook" target="_blank"><Icon.Facebook /></a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="https://github.com/PinalBhatt">
+                                                            <a className="github" target="_blank"><Icon.GitHub /></a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="https://www.linkedin.com/in/pinalbhatt/">
+                                                            <a className="linkedin" target="_blank"><Icon.Linkedin /></a>
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
