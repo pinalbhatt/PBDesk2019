@@ -9,7 +9,9 @@ import ServicesArea from '../components/home-one/ServicesArea';
 import Team from '../components/home-one/Team';
 import Funfacts from '../components/home-one/Funfacts';
 import RecentWork from '../components/home-one/RecentWork';
-import SkillCarousel from '../components/home-one/SkillCarousel';
+import SkillCarousel from '../components/common/skills/SkillCarousel';
+import MySkills from '../components/common/MySkills';
+import BlogCta from '../components/common/BlogCta';
 import Pricing from '../components/home-one/Pricing';
 import Feedback from '../components/home-one/Feedback';
 import Partner from '../components/home-one/Partner';
@@ -32,23 +34,26 @@ class Index extends React.Component {
                     {/* start-p/components/home-one/MainBanner.js */}
                     <MainBanner />
                     <Welcome />
-                    <SkillCarousel />
+                    <SkillCarousel skillSet="set2" />
+                    <BlogCta />
+                    {/*<SkillCarousel skillSet="set1" />*/}
                     {/* start-p/components/home-one/BoxArea.js */}
                     {/*<BoxArea />*/}
                     {/* start-p/components/home-one/ServicesArea.js */}
                     <ServicesArea />
                     {/* start-p/components/home-one/Team.js */}
-                    <Team />
+                    {/*<Team />*/}
                     {/* start-p/components/home-one/Funfacts.js */}
-                    <Funfacts />
+                    {/*<Funfacts />*/}
                     {/* start-p/components/home-one/RecentWork.js */}
-                    <RecentWork />
+                    {/*<RecentWork />*/}
                     {/* start-p/components/home-one/Pricing.js */}
-                    <Pricing />
+                    {/*<Pricing />*/}
                     {/* start-p/components/home-one/Feedback.js */}
                     <Feedback />
                     {/* start-p/components/home-one/Partner.js */}
-                    <Partner />
+                    {/*<Partner />*/}
+                    <MySkills />
                     {/* start-p/components/home-one/Blog.js */}
                     <Blog />
                     {/* start-p/components/Layouts/Footer.js */}
