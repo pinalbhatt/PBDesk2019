@@ -56,7 +56,7 @@ export default class Footer extends React.Component {
                                     <div className="item col-lg-12">
                                         <div className="single-team">
                                             <div className="team-image">
-                                                <img src={require("../../images/pb.png")} alt="image" />
+                                                <img src={require("../../images/pb.png")} alt="image" height="150" />
                                             </div>
 
                                             <div className="team-content">
