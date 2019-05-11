@@ -191,7 +191,7 @@ p:last-child {
   position: relative;
   border-radius: 4px;
   z-index: 1;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
