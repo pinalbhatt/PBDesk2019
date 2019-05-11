@@ -22,7 +22,7 @@ const debug = process.env.NODE_ENV !== "production";
 // }))
 
 const nextConfig = {
-    assetPrefix: !debug ? '/pbdesk2019/' : ''
+    assetPrefix: !debug ? '/' : ''
 }
 
 module.exports = withPlugins([
