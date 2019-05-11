@@ -62,6 +62,7 @@ export default class Footer extends React.Component {
                                             <div className="team-content">
                                                 <div className="team-info">
                                                     <h3>Pinal Bhatt</h3>
+                                                    <span>Software Engineer, NY</span>
                                                 </div>
                                                 <ul className="social-links">
                                                     <li>
@@ -94,7 +95,7 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="copyright-area">
-                                <p>from the desk of <b><em>Pinal Bhatt</em></b></p>
+                                <p><b>PBDesk.com</b>: from the desk of <b><em>Pinal Bhatt</em></b></p>
                             </div>
                         </div>
                     </div>
